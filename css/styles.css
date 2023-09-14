@@ -4,3 +4,8 @@
   background: #000;
   opacity: 0.001;
 }
+
+.demo-list-item {
+  width: 300px;
+}
+
