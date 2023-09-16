@@ -1,13 +1,36 @@
 div{
   background-color: coral;
+  padding-bottom: 30px;
 }
 
 h1{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
 }
 h2{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+img{
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  left: 50%;
+}
+.Flag{
+  width: 200px;
+  height: 130px;
+  border-radius: 3px;
+  box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.3);
+}
+.Capital-Image{
+  display: grid;
+  place-items: center;
+  padding: 0;
+  margin: 30px;
 }

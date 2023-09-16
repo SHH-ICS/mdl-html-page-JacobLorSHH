@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
   <title>Countries Around the World</title>
 </head>
 <body>
+    <!-- Colored raised button -->
+  <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+    Button
+  </button>
+
+  <!-- List items with avatar and action -->
+<style>
+  .demo-list-action {
+    width: 300px;
+  }
+  </style>
+  
+  <div class="demo-list-action mdl-list">
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">person</i>
+        <span>Bryan Cranston</span>
+      </span>
+      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">person</i>
+        <span>Aaron Paul</span>
+      </span>
+      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+    </div>
+    <div class="mdl-list__item">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">person</i>
+        <span>Bob Odenkirk</span>
+      </span>
+      <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+    </span>
+    </div>
+  </div>
+
+  <!-- Expandable Textfield -->
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+      <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" id="sample6">
+        <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+      </div>
+    </div>
+  </form>
+
+    <!-- Slider with Starting Value -->
+  <input class="mdl-slider mdl-js-slider" type="range"
+  min="0" max="100" value="25" tabindex="0">
+
+
+
+
+
+
+
   <h1>
     Countries
   </h1>
@@ -19,27 +85,35 @@
     <h3>
       Capital: Ottawa
     </h3>
+    <div class="Capital-Image">
+      <img src="Images/Downtown Ottawa Parliment.jpg" alt="Downtown Ottawa, Parliment">
+    </div>
   </div>
   
   <h2>
     United States
   </h2>
-  
+  <img class="Flag" src="Images/Flag-United-States-of-America.webp" alt="Flag of the US">
   <div>
     <h3>
       Capital: Washington D.C
     </h3>
-    <img src="Images/GettyImages-497322993-598b2ad403f4020010ae0a08.jpg" alt="Image of Washington D.C">
+    <div class="Capital-Image">
+      <img src="Images/GettyImages-497322993-598b2ad403f4020010ae0a08.jpg" alt="Washington D.C">
+    </div>
   </div>
 
   <h2>
     Mexico
   </h2>    
+  <img class="Flag" src="Images/Flag-Mexico.webp" alt="Flag of Mexico">
   <div>
     <h3>
       Capital: Mexico City
     </h3>
-    <img src="Images/Mexico City.jpg" alt="Image of Mexico City">
+    <div class="Capital-Image">
+      <img src="Images/Mexico City.jpg" alt="Mexico City">
+    </div>
   </div>
 </body>
 </html>
